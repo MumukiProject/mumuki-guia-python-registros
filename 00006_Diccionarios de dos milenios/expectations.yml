@@ -2,4 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:es_del_milenio_pasado
+  inspection: Declares:es_del_milenio_pasado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:es_del_milenio_pasado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: es_del_milenio_pasado
+  inspection: Not:UsesIf

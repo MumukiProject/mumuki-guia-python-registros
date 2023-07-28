@@ -1,0 +1,2 @@
+expectation "`mas_dificil_de_cocinar` debe ser una función":
+  (! declares `mas_dificil_de_cocinar`) || (declares function `mas_dificil_de_cocinar`);

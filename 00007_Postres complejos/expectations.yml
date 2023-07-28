@@ -6,3 +6,12 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresComputationWithArity2:mas_dificil_de_cocinar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mas_dificil_de_cocinar
+  inspection: UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mas_dificil_de_cocinar
+  inspection: CallsSize
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mas_dificil_de_cocinar
+  inspection: UsesGetAt

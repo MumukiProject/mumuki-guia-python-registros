@@ -6,3 +6,12 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresProcedure:endulzar_menu
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:endulzar_menu
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: endulzar_menu
+  inspection: Calls:append
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: endulzar_menu
+  inspection: Not:Returns

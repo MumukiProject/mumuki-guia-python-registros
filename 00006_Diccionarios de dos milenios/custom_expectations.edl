@@ -1,0 +1,2 @@
+expectation "`es_del_milenio_pasado` debe ser una función":
+  (! declares `es_del_milenio_pasado`) || (declares function `es_del_milenio_pasado`);

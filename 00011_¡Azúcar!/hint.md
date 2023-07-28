@@ -1,1 +1,1 @@
-Recordá que cada menú tiene un `postre` y que cada postre tiene `ingredientes`. :custard:
+Recordá que cada menú tiene un `postre` y que cada postre tiene `ingredientes`  :custard:. ¡Te dejamos dos menús de ejemplo en la `Biblioteca` para que puedas verlos! 
