@@ -10,6 +10,10 @@ manual_evaluation: false
 progressive_expectations: false
 choices: []
 goal:
-  kind: last_query_equals
-  value: listo()
+  kind: queries_match
+  regexps:
+  - "^marte\\s*$"
+  - "^mercurio\\s*$"
+  - "^saturno\\s*$"
+  - "^listo\\s*\\(\\s*\\)\\s*$"
 name: Los campos de Marte
